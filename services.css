@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
+body {
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Noto Sans Mono', monospace; */
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: none;
+}
+:root {
+    --blueColor:#1b7ced;
+}
+.bg-blue {
+    background-color: var(--blueColor);
+}
+h1 {
+    font-weight: 800;
+}
+
+/* start navbar  */
+.navbar ul li a {
+    font-weight: 500;
+
+}
+.navbar .nav-link {
+    font-weight: 600;
+}
+.navbar .nav-item .nav-link {
+	 position: relative;
+	 width: fit-content;
+}
+.navbar .nav-item .nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--blueColor);
+    transition: .5s;
+}
+.navbar .nav-item .nav-link:hover::after {
+    width: 100%;
+}
+.navbar .nav-item:last-child {
+	background-color: var(--blueColor);
+    width: fit-content;
+ }
+.navbar .nav-item .contact span{
+	font-size: 15px;
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	text-align: center;
+	line-height: 25px;
+	border-radius: 50%;
+	background-color: #fff;
+   color: var(--blueColor);
+   transition: .7s;
+   margin-left: 3px;
+}
+.navbar .nav-item .contact:hover span{
+   transform: rotate(360deg);
+   background-color: #000;
+}
+.navbar .nav-item .nav-link.active::after {
+    width: 100%;
+}
+.navbar .nav-item:last-child .nav-link:hover::after {
+	width: 0;
+}
+.services_cover 
+{
+    background-image: url('../img/servises_cover.webp');
+    height: 50vh;
+    background-size: cover;
+    background-attachment: fixed;
+    width:100%;
+    position: relative;
+}
+.dep_title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 30px;
+    color: #1b7ced;
+    transform: translate(-150%, -160%);
+}
+.pic1{
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+.order-first a{
+    text-decoration: none;
+}
+.pic1 {
+
+ direction: ltr;
+}
