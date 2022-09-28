@@ -21,6 +21,7 @@ h1 {
 }
 
 /* start navbar  */
+
 .navbar ul li a {
     font-weight: 500;
 
@@ -81,6 +82,9 @@ h1 {
     width:100%;
     position: relative;
 }
+.service1,.service2,.service3{
+    text-align: left;
+}
 .dep_title{
     position: absolute;
     top: 50%;
@@ -90,9 +94,10 @@ h1 {
     transform: translate(-150%, -160%);
 }
 .pic1{
+    text-align:left;
     width: 60px;
     height: 60px;
-    margin-right: 20px;
+    margin-bottom:20px;
 }
 .order-first a{
     text-decoration: none;
@@ -100,4 +105,9 @@ h1 {
 .pic1 {
 
  direction: ltr;
+}
+.serv_choise{
+    display: flex;
+    margin:  5px 1px;
+    justify-content: center;
 }
