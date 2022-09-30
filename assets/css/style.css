@@ -294,6 +294,17 @@ h1 {
     background-color: #FFF;
     color:#4169E1;
 }
+/* start services section  */
+.service .service1 {
+    min-height: 400px;
+}
+.service .service-content1 {
+    margin-top: 15px;
+}
+ .service .service-content2{
+    margin-top: 25px;
+}
+/* end services section  */
 /* start patient section  */
 .patient {
         font-family: 'Roboto', sans-serif;
