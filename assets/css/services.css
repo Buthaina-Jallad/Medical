@@ -75,12 +75,13 @@ h1 {
 }
 .services_cover 
 {
-    background-image: url('../img/servises_cover.webp');
-    height: 50vh;
+    background-image: url(../img/servises_cover.webp);
+    height: 60vh;
     background-size: cover;
     background-attachment: fixed;
-    width:100%;
+    width: 100%;
     position: relative;
+    margin-top: 100px;
 }
 .service1,.service2,.service3{
     text-align: left;
@@ -92,6 +93,11 @@ h1 {
     font-size: 30px;
     color: #1b7ced;
     transform: translate(-150%, -160%);
+}
+@media screen and (max-width:1326px) {
+    .dep_title{
+        left: 70%;
+    }
 }
 .pic1{
     text-align:left;
@@ -110,4 +116,14 @@ h1 {
     display: flex;
     margin:  5px 1px;
     justify-content: center;
+}
+.btn {
+    background-color: var(--blueColor);
+    border-color: var(--blueColor);
+    color: #fff;
+    font-weight: 500;
+}
+.btn:hover{
+    background-color: var(--blueColor) !important;
+    border-color: var(--blueColor) !important;
 }
