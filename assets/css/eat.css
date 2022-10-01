@@ -17,12 +17,8 @@
 text-decoration: none;
 color: #000;
 }
-.blog h1 span a:hover{
-color: #688fbb;
-transition: .2s;
-}
 .blog h1 span:nth-child(1) a:hover{
-        color: rgb(0, 0, 0);
+       text-decoration: underline;
 }
 .blog h1::after{
         content: '';
