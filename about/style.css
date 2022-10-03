@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.about{
+    padding-top: 50px;
+    height: 100vh;
+    background-color:rgb(0, 183, 255);
+
+   
+}
+.tit{
+    text-align: center;
+    font-weight: 500;
+    font-size: 5rem;
+    color: white;
+    text-transform: uppercase;
+    
+}
+.sec{
+    width: 100%;
+    padding-top: 150px;
+    
+}
+.wsec
+{
+    display: flex;
+}
+.text{
+    color:#fff;
+    padding-left: 300px;
+    width: 50%;
+    
+}
+
+.text p{
+    font-size: 26px;
+    font-weight: 400;
+}
+.wvideo{
+    height: 300px;
+    width: 380px;
+    left:9rem;
+    
+}
+
+
+.video{
+    width: 400px;
+    position: relative;
+    width: 20%;
+    padding-left: 100px;
+}
+.wimg{
+    position: absolute;
+    width: 100%;
+}
+
+
+
+ .wvideo{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    width: 95%;
+    padding-left: 400px;
+    transform: translate(-50%,-50%);
+    padding-top: 150px;
+    padding-right: 42px;
+}
