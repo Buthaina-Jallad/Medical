@@ -317,14 +317,12 @@ h1 {
 /* start free section  */
 .free .free-content {
     border: 5px solid var(--blueColor) !important;
-    width: fit-content !important;
     padding-top: 50px;
     padding-bottom: 50px;
-    padding-left: 10px;
-    padding-right: 10px;
+    max-width: 1120px !important;
 
 }
-.free h3 {
+.free h4 {
     color: #000;
     font-weight: 700;
     margin: 0;
@@ -455,6 +453,49 @@ h1 {
       }
   }
 /* end video section  */
+/* start blog section  */
+.blog-index {
+    background-color: #c7dbff;
+}
+.blog-index h1 {
+    margin-top: 20px;
+    margin-bottom: 80px !important;
+}
+.w-90 {
+    width: 90% !important;
+}
+
+.blog-index .button .border {
+    background-color: #76a0ee;
+    border: 2px solid #76a0ee !important;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.blog.blog-index h5 {
+    margin-bottom: 35px !important;
+}
+.blog-index p {
+    color: #000;
+    font-weight: 500;
+}
+.blog-index .button .border:hover{
+    background-color: #fff;
+    border: 2px solid #76a0ee !important;
+    color: #76a0ee;
+    font-weight: 600;
+    transition: .5s
+}
+.blog-index .button a{
+  text-decoration: none ;
+}
+@media screen and (max-width:991px) {
+    .blog-index .card {
+        margin: auto !important;
+        margin-bottom: 40px !important;
+    }
+}
+/* end blog section  */
 /* start patient section  */
 .patient {
         font-family: 'Roboto', sans-serif;
