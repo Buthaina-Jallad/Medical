@@ -218,7 +218,9 @@ h1 {
    border-color:#FFF;
    color: #FFF;
    border-radius: 52px;
-   
+   font-weight: 500;
+   margin-top: 10px;
+   padding: 10px;
 }
 .service .service1 .fbtn a{
     text-decoration: none;
@@ -251,6 +253,9 @@ h1 {
    color: #FFF;
    border-radius: 52px;
    margin-bottom: 30px;
+   font-weight: 500;
+   margin-top: 10px;
+   padding: 10px;
    
 }
 .service .service2 .fbtn a{
@@ -284,15 +289,19 @@ h1 {
    border-color:#FFF;
    color: #FFF;
    border-radius: 52px;
-   
+   font-weight: 500;
+   margin-top: 10px;
+   padding: 10px;
 }
 .service .service3 .fbtn a{
     text-decoration: none;
     color: #FFF;
 }
+.service .service3 .fbtn:hover a{
+    color:#4169E1;
+}
 .service .service3 .fbtn:hover{
     background-color: #FFF;
-    color:#4169E1;
 }
 /* start services section  */
 .service .service1 {
@@ -305,6 +314,147 @@ h1 {
     margin-top: 25px;
 }
 /* end services section  */
+/* start free section  */
+.free .free-content {
+    border: 5px solid var(--blueColor) !important;
+    width: fit-content !important;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.free h3 {
+    color: #000;
+    font-weight: 700;
+    margin: 0;
+}
+.free .btn {
+   color: #fff !important;
+   font-size: 18px !important;
+   font-weight: 500;
+   background-color: var(--blueColor);
+}
+.free .btn:hover{
+    background-color: #4169E1 !important;
+    font-size: 18px !important;
+    color: #fff !important;
+ }
+/* end free section  */
+/* start methods section  */
+.methods {
+    background-color: #0a1935;
+    padding-top: 100px;
+    padding-bottom: 80px !important;
+}
+.methods h2 {
+    padding-top: 40px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px !important;
+    font-weight: 600
+}
+.methods h4 {
+    color: #000;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.methods p {
+   color: #000;
+   font-weight: 400;
+}
+.methods .col-md-4 {
+    padding: 45px 45px 27px 45px;
+    
+ }
+.div-2 {
+    background-color: #c4c7d7;
+}
+.div-1 {
+  background-color: #c4c7d7;
+ } /*
+@keyframes fadeInDown1 {
+    from {
+      opacity: 0;
+      transform: translate3d(100%, 0, 0);
+    }
+  
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  
+@keyframes fadeInDown2 {
+    from {
+      opacity: 0;
+      transform: translate3d(-100%, 0, 0);
+    }
+  
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+   */
+  @media screen and (max-width:991px) {
+    
+.div-1 {
+    margin-bottom: 45px;
+  } 
+  }
+/* end methods section  */
+/* start video section  */
+.video .video-content {
+    width: 40%;
+    text-align: start !important;
+}
+.video h2 {
+    color: #284b80;
+    font-weight: 600;
+}
+.video h2 span {
+    color: #95a5a6;
+}
+.video p {
+    color: #95a5a6;
+}
+.video .btn {
+    color: #fff !important;
+    font-size: 16px !important;
+    font-weight: 500;
+    background-color: var(--blueColor);
+ }
+ .video .btn:hover{
+     background-color: #4169E1 !important;
+     color: #fff !important;
+  }
+  .video iframe {
+    width: 170% !important;
+  }
+  .video .video2 {
+    display: flex;
+}
+  @media screen and (max-width:991px) {
+    .video {
+        margin-top:70px;
+        margin-bottom: -50px;
+    }
+    .video .video2 {
+        display: inline-block;
+    }
+    .video .video-content {
+        width: 100% !important;
+        text-align: start !important;
+        margin-bottom: -60px;
+    }
+    .video iframe {
+        width: 130% !important;
+      }
+  }
+/* end video section  */
 /* start patient section  */
 .patient {
         font-family: 'Roboto', sans-serif;
@@ -354,7 +504,7 @@ border-color: #F6F6F6 transparent transparent transparent;
     right: 200px;
     bottom: -20px;
    cursor: pointer;
-   z-index: 1;
+   z-index: 5;
 }
 .patient .option2 {
     width: 10px;
@@ -365,6 +515,7 @@ border-color: #F6F6F6 transparent transparent transparent;
     right: 220px;
     bottom: -20px;
     cursor: pointer;
+    z-index: 5;
 }
 @media screen and (max-width:770px) {
     .patient .col-md-3 {
