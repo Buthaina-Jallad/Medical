@@ -757,14 +757,12 @@ margin-top: 90px;
           }
           .footer .footer-top-first ul li i {
             font-size: 26px;
-            color: var(--blueColor);
-            margin-right: 15px;
+            color: #fff;
             height: 50px;
             width: 50px;
             text-align: center;
             line-height: 50px;
             border-radius: 50%;
-            background-color: #fff;
             cursor: pointer;
             transition: .5s;
           }
