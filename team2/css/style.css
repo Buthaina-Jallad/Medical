@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap');
+.tit{
+    font-size: 80px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color:white;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 40px;
+    font-family: 'Alkalami', serif;
+
+    
+    
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    
+}
+.pateint{   
+     background-image: url('../img/أفضل-طبيب-أمراض-جلدية-في-دبي.jpg');
+     height:100vh;
+     background-size: cover;
+}
+
+
+.accordion-button {
+    background-color: rgb(0, 213, 255);
+}
+.accordion-body{
+    background-color: rgb(0, 225, 255);
+    font-family: 'Cairo', sans-serif;
+    font-size: 15px;
+
+
+}
+
+.accordion{
+    width:80%;
+    height: 30px;
+--bs-accordion-bg: rgb(153,204,255) !important;
+--bs-accordion-border-color: none !important;
+--bs-accordion-active-color: none !important;
+--bs-accordion-active-bg: none !important;
+--bs-accordion-border:none !important;
+--bs-accordion-btn-focus-border-color:none !important;
+--bs-accordion-btn-focus-box-shadow:none !important;
+--bs-accordion-btn-icon:none !important;
+--bs-accordion-btn-active-icon:none !important;
+--bs-accordion-btn-icon-transform: rotate(-45deg);
+--bs-accordion-btn-icon-transition: transform 0.01s ease-in-out;
+}
+
+.accordion-header{
+    border:none ;
+    border-bottom: 1px solid black;
+    padding-bottom:.5rem;
+    padding-left:.5rem;
+}
+.accordion-body{
+    text-align: left;
+    padding-left:2rem;
+}
+
+.accordion-button, .accordion-header, .accordion-item{
+    
+    background-color:white;
+    color:burlywood;
+    font-size: 1.625rem;
+    font-weight: 400;
+    padding-top:0.5rem;
+   
+    
+    border-radius: none;
+    
+   
+}
+
+.accordion-button{
+    transition:none;
+    border-radius: none;
+    }
+
+   
+   .carousel-inner{
+    height: 100vh;
+   }
+    .carousel-item{
+        width: 100%;
+        height: 100%;
+    } 
+
+    .carousel-item img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
