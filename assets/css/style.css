@@ -11,6 +11,13 @@ body {
   box-sizing: none;
   min-width: 320px;
 }
+.dis{
+  text-align: center;
+}
+.dis a{
+  text-decoration: none;
+  color:antiquewhite;
+}
 :root {
   --blueColor: #1b7ced;
 }
